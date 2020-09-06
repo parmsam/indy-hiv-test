@@ -3,12 +3,19 @@ html {
 }
 h1 {
   text-align: center;
+  color: red;
 }
 
 h2 {
   text-align: center;
+  color: darkblue;
+}
+
+h3 {
+  color: darkred;
 }
 
 body {
   text-align: center;
+  font-family: Lobster;
 }
