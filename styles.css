@@ -41,10 +41,12 @@ body {
   margin-right: auto;
   min-width: 60%;
   max-width: 100%;
+  float: initial;
 }
 
 .modules {
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  float: initial;
 }
