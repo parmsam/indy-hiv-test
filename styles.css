@@ -19,7 +19,6 @@ body {
   text-align: center;
   font-family: Helvetica;
   background-color:white;
-
 }
 
 .HIV-text {
@@ -32,3 +31,21 @@ body {
 .Condoms-text {
    color: #38C4A9
 }  
+
+.HIV-module {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.PrEP-module {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
+
+.Condoms-module {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+}
