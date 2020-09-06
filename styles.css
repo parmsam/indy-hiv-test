@@ -34,8 +34,6 @@ body {
 
 .HIV-module {
   text-align: center;
-  display: flex;
-  flex-direction: row;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -45,6 +43,5 @@ body {
 .modules {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
-  float: clear;
+  width: 600px;
 }
