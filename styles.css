@@ -35,21 +35,15 @@ body {
 .HIV-module {
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
+  width: 76%;
   text-align: center;    
-  display: flex;
+  display: block;
   justify-content: center;
 
 }
 
-.PrEP-module {
+.modules {
   margin-left: auto;
   margin-right: auto;
-  width: 95%;
-}
-
-.Condoms-module {
-  margin-left: auto;
-  margin-right: auto;
-  width: 95%;
+  width: 90%;
 }
