@@ -38,10 +38,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   float: initial;
+  width: 355px;
 }
 
 .modules {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 95%;
 }
