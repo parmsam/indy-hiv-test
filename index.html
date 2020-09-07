@@ -9,6 +9,7 @@
     <title>Indy HIV Test</title>
     <link rel=stylesheet href="styles.css">
     <script src="https://tools.cdc.gov/TemplatePackage/contrib/libs/jquery/1.12.4/jquery.js"></script>
+    
     <!-- <script src="https://tools.cdc.gov/1M1B"></script> -->
   </head>
 
@@ -18,22 +19,43 @@
     <h2 class="HIV-text"> Find HIV test in Indy</h2>
     
 <!--     <div class="HIV-module"> -->
-       <iframe  class="HIV-module" frameborder="0" src="https://www.cdc.gov/hiv/widgets/npinGetTested/cdc-npin-gettested-widget.html?preserve-html-node=true" name="DynGetTested1" style="height: 350px;" title="DynGetTested1" height="100%" style="margin:0 auto" scrolling="no"></iframe>
+       <iframe  class="HIV-module" frameborder="0" src="https://www.cdc.gov/hiv/widgets/npinGetTested/cdc-npin-gettested-widget.html?preserve-html-node=true" name="DynGetTested1" title="DynGetTested1" height="340px" style="margin:0 auto" scrolling="no"></iframe>
        
-       
+<br>       
 <!--     </div> -->
-<br>
 or     <a href="https://gettested.cdc.gov/search_results?location=Indianapolis"> click here </a>
+<br><br>
+<button type="button" class="collapsible">    <h2 class="PrEP-text"> Find PrEP (click here) </h2></button>
 
-    <h2 class="PrEP-text"> Find PrEP here </h2>
-    <div class="modules" data-cdc-widget="DynWidgets" data-component-name="HCSO"></div>
-    <script src="//tools.cdc.gov/1M1B"></script>
-    
-    <h2 class="Condoms-text"> Find Condoms here </h2>
+<div class="content">
+    <div data-cdc-widget="DynWidgets" data-component-name="HCSO"></div>
+    <script src="//tools.cdc.gov/1M1B"></script>  
+</div>
+
+<br><br>
+
+<button type="button" class="collapsible"><h2 class="Condoms-text"> Find Condoms (click here) </h2></button>
+
     <!-- <div data-cdc-widget="DynWidgets" data-component-name="CondomFinder"></div> -->
-    <div class="modules" data-cdc-widget="DynWidgets" data-component-name="CondomFinder"></div>
+    <div class="content" data-cdc-widget="DynWidgets" data-component-name="CondomFinder"></div>
     <script type="text/javascript" src="https://tools.cdc.gov/1M1B"></script>
 
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight){
+            content.style.maxHeight = null;
+          } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+          }
+        });
+      }
+    </script>
   </body>
 
 </html>
