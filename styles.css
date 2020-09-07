@@ -52,7 +52,7 @@ body {
   width: 95%;
   overflow: hidden;
   max-height: 0;
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.5s ease-out;
 }
 
 /* Style the button that is used to open and close the collapsible content */
