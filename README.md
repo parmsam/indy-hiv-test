@@ -1,6 +1,6 @@
 # indy-hiv-test
 
-Simple redesign of [indyhivtest.com](indyhivtest.com)
+Simple redesign of [indyhivtest.com/](http://www.indyhivtest.com/)
 
 Purpose: to better inform persons living in Indy on where they can get tested for HIV
 
