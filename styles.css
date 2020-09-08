@@ -69,3 +69,18 @@ body {
   font-size: 15px;
 }
 
+.home_link {
+  color:red;
+}
+
+.about_link {
+  color:crimson;
+}
+
+.events_link {
+  color:firebrick;
+}
+
+a:hover {
+  color: steelblue;
+}
