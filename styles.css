@@ -81,6 +81,14 @@ body {
   color:firebrick;
 }
 
+.sam_site {
+  color:red
+}
+
+.stepup_site {
+  color:orangered
+}
+
 a:hover {
   color: steelblue;
 }
