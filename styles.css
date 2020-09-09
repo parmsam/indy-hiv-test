@@ -15,6 +15,12 @@ h3 {
   color: darkred;
 }
 
+hr {
+height:1px;
+border-width:0;
+background-color:red
+}
+
 body {
   text-align: center;
   font-family: Helvetica;
