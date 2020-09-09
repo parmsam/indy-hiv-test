@@ -15,7 +15,7 @@ h3 {
   color: darkred;
 }
 
-hr {
+.top_line {
 height:1px;
 border-width:0;
 background-color:red
